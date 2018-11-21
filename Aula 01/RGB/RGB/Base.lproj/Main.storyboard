@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,46 +15,70 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RGB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ojh-CO-gfo">
-                                <rect key="frame" x="163" y="407" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="mudarSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="8Fm-Co-tvo"/>
-                                </connections>
-                            </switch>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TkG-dm-Nq1">
-                                <rect key="frame" x="47" y="117" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="WSq-Kp-toV"/>
-                                </connections>
-                            </slider>
-                            <slider opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dK6-g1-3e0">
-                                <rect key="frame" x="47" y="292" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="AuB-Tr-zgD"/>
-                                </connections>
-                            </slider>
-                            <slider opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="i4D-gI-YiP">
-                                <rect key="frame" x="46" y="200" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Sdn-Px-IWG"/>
-                                </connections>
-                            </slider>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eKx-FV-Cl4">
+                                <rect key="frame" x="0.0" y="566.5" width="414" height="295.5"/>
+                                <subviews>
+                                    <slider opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="dK6-g1-3e0">
+                                        <rect key="frame" x="19.5" y="155" width="375" height="31"/>
+                                        <connections>
+                                            <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="AuB-Tr-zgD"/>
+                                        </connections>
+                                    </slider>
+                                    <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="i4D-gI-YiP">
+                                        <rect key="frame" x="19.5" y="88.5" width="375" height="31"/>
+                                        <connections>
+                                            <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="Sdn-Px-IWG"/>
+                                        </connections>
+                                    </slider>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="TkG-dm-Nq1">
+                                        <rect key="frame" x="19.5" y="22" width="375" height="31"/>
+                                        <connections>
+                                            <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="WSq-Kp-toV"/>
+                                        </connections>
+                                    </slider>
+                                    <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ojh-CO-gfo">
+                                        <rect key="frame" x="182.5" y="220" width="51" height="32.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Ojh-CO-gfo" secondAttribute="height" multiplier="47:31" id="QLW-NT-dFW"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="mudarSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="8Fm-Co-tvo"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" red="0.5" green="0.5" blue="0.49494327910000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="dK6-g1-3e0" firstAttribute="centerY" secondItem="eKx-FV-Cl4" secondAttribute="centerY" multiplier="1.15" id="6Qd-t1-h94"/>
+                                    <constraint firstItem="i4D-gI-YiP" firstAttribute="centerX" secondItem="eKx-FV-Cl4" secondAttribute="centerX" id="8E0-3r-vVg"/>
+                                    <constraint firstItem="TkG-dm-Nq1" firstAttribute="width" secondItem="eKx-FV-Cl4" secondAttribute="height" multiplier="69:55" id="PJd-ms-f0A"/>
+                                    <constraint firstItem="Ojh-CO-gfo" firstAttribute="centerY" secondItem="eKx-FV-Cl4" secondAttribute="centerY" multiplier="1.6" id="S3w-Vc-i98"/>
+                                    <constraint firstItem="dK6-g1-3e0" firstAttribute="centerX" secondItem="eKx-FV-Cl4" secondAttribute="centerX" id="TmF-Pk-IIf"/>
+                                    <constraint firstItem="i4D-gI-YiP" firstAttribute="centerY" secondItem="eKx-FV-Cl4" secondAttribute="centerY" multiplier="0.7" id="Vav-pn-T6z"/>
+                                    <constraint firstItem="dK6-g1-3e0" firstAttribute="width" secondItem="eKx-FV-Cl4" secondAttribute="height" multiplier="69:55" id="d3p-ZC-arD"/>
+                                    <constraint firstItem="TkG-dm-Nq1" firstAttribute="centerX" secondItem="eKx-FV-Cl4" secondAttribute="centerX" id="dDc-jS-WKE"/>
+                                    <constraint firstItem="i4D-gI-YiP" firstAttribute="width" secondItem="eKx-FV-Cl4" secondAttribute="height" multiplier="69:55" id="iTU-W5-Dcb"/>
+                                    <constraint firstItem="Ojh-CO-gfo" firstAttribute="centerX" secondItem="eKx-FV-Cl4" secondAttribute="centerX" id="rve-Ik-cQw"/>
+                                    <constraint firstItem="TkG-dm-Nq1" firstAttribute="centerY" secondItem="eKx-FV-Cl4" secondAttribute="centerY" multiplier="0.25" id="tbT-Vq-ChP"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="eKx-FV-Cl4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5lI-wT-ooZ"/>
+                            <constraint firstItem="eKx-FV-Cl4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="6j5-IQ-vq7"/>
+                            <constraint firstItem="eKx-FV-Cl4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Vut-XP-qNU"/>
+                            <constraint firstItem="eKx-FV-Cl4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="e4l-hk-elU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="tomada" destination="Ojh-CO-gfo" id="7uC-ix-F5P"/>
-                        <outletCollection property="sliders" destination="TkG-dm-Nq1" collectionClass="NSMutableArray" id="ZJw-Hu-eg2"/>
-                        <outletCollection property="sliders" destination="i4D-gI-YiP" collectionClass="NSMutableArray" id="bmS-w8-ogS"/>
                         <outletCollection property="sliders" destination="dK6-g1-3e0" collectionClass="NSMutableArray" id="0d6-DD-9tD"/>
+                        <outletCollection property="sliders" destination="i4D-gI-YiP" collectionClass="NSMutableArray" id="bmS-w8-ogS"/>
+                        <outletCollection property="sliders" destination="TkG-dm-Nq1" collectionClass="NSMutableArray" id="ZJw-Hu-eg2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
