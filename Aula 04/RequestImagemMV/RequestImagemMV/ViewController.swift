@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBAction func tapDownloadImageButton(_ sender: Any) {
         let imageURL = URL(string: "https://media.lovemondays.com.br/logos/fdbb55/mv-original.png")!
         
-        let downloadTask = URLSession.shared.dataTask(with: imageURL) { (data, response, error) in
+        let dataTask = URLSession.shared.dataTask(with: imageURL) { (data, response, error) in
             if let error = error {
                 print(error.localizedDescription)
             }
@@ -27,7 +27,7 @@ class ViewController: UIViewController {
             }
         }
         
-        downloadTask.resume()
+        dataTask.resume()
     }
     
 }
