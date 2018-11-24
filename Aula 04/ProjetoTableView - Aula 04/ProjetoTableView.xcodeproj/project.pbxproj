@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D44FDB0821A898430083E416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FDB0721A898430083E416 /* AppDelegate.swift */; };
-		D44FDB0A21A898430083E416 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44FDB0921A898430083E416 /* ViewController.swift */; };
-		D44FDB0D21A898430083E416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44FDB0B21A898430083E416 /* Main.storyboard */; };
-		D44FDB0F21A898440083E416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44FDB0E21A898440083E416 /* Assets.xcassets */; };
-		D44FDB1221A898440083E416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44FDB1021A898440083E416 /* LaunchScreen.storyboard */; };
-		D4E663CA21A8AEBB001F5E01 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E663C921A8AEBB001F5E01 /* Dados.swift */; };
+		D4293CDD219DD73B00099332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4293CDC219DD73B00099332 /* AppDelegate.swift */; };
+		D4293CDF219DD73B00099332 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4293CDE219DD73B00099332 /* ViewController.swift */; };
+		D4293CE2219DD73B00099332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4293CE0219DD73B00099332 /* Main.storyboard */; };
+		D4293CE4219DD73D00099332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4293CE3219DD73D00099332 /* Assets.xcassets */; };
+		D4293CE7219DD73E00099332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4293CE5219DD73E00099332 /* LaunchScreen.storyboard */; };
+		D4293CEF219DDB1200099332 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4293CEE219DDB1200099332 /* Player.swift */; };
+		D4293CF1219DF25F00099332 /* JogadorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4293CF0219DF25F00099332 /* JogadorTableViewCell.swift */; };
+		D429A2D621A8613300EE1A6F /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D429A2D521A8613300EE1A6F /* Dados.swift */; };
+		D42F4D3221A04EF100E01AA4 /* AdicionarJogadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F4D3121A04EF100E01AA4 /* AdicionarJogadorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D44FDB0421A898430083E416 /* LanternaRGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanternaRGB.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D44FDB0721A898430083E416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D44FDB0921A898430083E416 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D44FDB0C21A898430083E416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D44FDB0E21A898440083E416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D44FDB1121A898440083E416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D44FDB1321A898440083E416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4E663C921A8AEBB001F5E01 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		D4293CD9219DD73B00099332 /* ProjetoTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4293CDC219DD73B00099332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4293CDE219DD73B00099332 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4293CE1219DD73B00099332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4293CE3219DD73D00099332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4293CE6219DD73E00099332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4293CE8219DD73E00099332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4293CEE219DDB1200099332 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		D4293CF0219DF25F00099332 /* JogadorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JogadorTableViewCell.swift; sourceTree = "<group>"; };
+		D429A2D521A8613300EE1A6F /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		D42F4D3121A04EF100E01AA4 /* AdicionarJogadorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdicionarJogadorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D44FDB0121A898430083E416 /* Frameworks */ = {
+		D4293CD6219DD73B00099332 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +43,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D44FDAFB21A898430083E416 = {
+		D4293CD0219DD73B00099332 = {
 			isa = PBXGroup;
 			children = (
-				D44FDB0621A898430083E416 /* LanternaRGB */,
-				D44FDB0521A898430083E416 /* Products */,
+				D4293CDB219DD73B00099332 /* ProjetoTableView */,
+				D4293CDA219DD73B00099332 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D44FDB0521A898430083E416 /* Products */ = {
+		D4293CDA219DD73B00099332 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D44FDB0421A898430083E416 /* LanternaRGB.app */,
+				D4293CD9219DD73B00099332 /* ProjetoTableView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D44FDB0621A898430083E416 /* LanternaRGB */ = {
+		D4293CDB219DD73B00099332 /* ProjetoTableView */ = {
 			isa = PBXGroup;
 			children = (
-				D44FDB0721A898430083E416 /* AppDelegate.swift */,
-				D44FDB0921A898430083E416 /* ViewController.swift */,
-				D44FDB0B21A898430083E416 /* Main.storyboard */,
-				D44FDB0E21A898440083E416 /* Assets.xcassets */,
-				D44FDB1021A898440083E416 /* LaunchScreen.storyboard */,
-				D44FDB1321A898440083E416 /* Info.plist */,
-				D4E663C921A8AEBB001F5E01 /* Dados.swift */,
+				D4293CDC219DD73B00099332 /* AppDelegate.swift */,
+				D4293CDE219DD73B00099332 /* ViewController.swift */,
+				D4293CF0219DF25F00099332 /* JogadorTableViewCell.swift */,
+				D4293CE0219DD73B00099332 /* Main.storyboard */,
+				D4293CE3219DD73D00099332 /* Assets.xcassets */,
+				D4293CE5219DD73E00099332 /* LaunchScreen.storyboard */,
+				D4293CE8219DD73E00099332 /* Info.plist */,
+				D4293CEE219DDB1200099332 /* Player.swift */,
+				D42F4D3121A04EF100E01AA4 /* AdicionarJogadorViewController.swift */,
+				D429A2D521A8613300EE1A6F /* Dados.swift */,
 			);
-			path = LanternaRGB;
+			path = ProjetoTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D44FDB0321A898430083E416 /* LanternaRGB */ = {
+		D4293CD8219DD73B00099332 /* ProjetoTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D44FDB1621A898440083E416 /* Build configuration list for PBXNativeTarget "LanternaRGB" */;
+			buildConfigurationList = D4293CEB219DD73E00099332 /* Build configuration list for PBXNativeTarget "ProjetoTableView" */;
 			buildPhases = (
-				D44FDB0021A898430083E416 /* Sources */,
-				D44FDB0121A898430083E416 /* Frameworks */,
-				D44FDB0221A898430083E416 /* Resources */,
+				D4293CD5219DD73B00099332 /* Sources */,
+				D4293CD6219DD73B00099332 /* Frameworks */,
+				D4293CD7219DD73B00099332 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = LanternaRGB;
-			productName = LanternaRGB;
-			productReference = D44FDB0421A898430083E416 /* LanternaRGB.app */;
+			name = ProjetoTableView;
+			productName = ProjetoTableView;
+			productReference = D4293CD9219DD73B00099332 /* ProjetoTableView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D44FDAFC21A898430083E416 /* Project object */ = {
+		D4293CD1219DD73B00099332 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = "Victor Leal Porto de Almeida Arruda";
 				TargetAttributes = {
-					D44FDB0321A898430083E416 = {
+					D4293CD8219DD73B00099332 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = D44FDAFF21A898430083E416 /* Build configuration list for PBXProject "LanternaRGB" */;
+			buildConfigurationList = D4293CD4219DD73B00099332 /* Build configuration list for PBXProject "ProjetoTableView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +118,58 @@
 				en,
 				Base,
 			);
-			mainGroup = D44FDAFB21A898430083E416;
-			productRefGroup = D44FDB0521A898430083E416 /* Products */;
+			mainGroup = D4293CD0219DD73B00099332;
+			productRefGroup = D4293CDA219DD73B00099332 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D44FDB0321A898430083E416 /* LanternaRGB */,
+				D4293CD8219DD73B00099332 /* ProjetoTableView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D44FDB0221A898430083E416 /* Resources */ = {
+		D4293CD7219DD73B00099332 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44FDB1221A898440083E416 /* LaunchScreen.storyboard in Resources */,
-				D44FDB0F21A898440083E416 /* Assets.xcassets in Resources */,
-				D44FDB0D21A898430083E416 /* Main.storyboard in Resources */,
+				D4293CE7219DD73E00099332 /* LaunchScreen.storyboard in Resources */,
+				D4293CE4219DD73D00099332 /* Assets.xcassets in Resources */,
+				D4293CE2219DD73B00099332 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D44FDB0021A898430083E416 /* Sources */ = {
+		D4293CD5219DD73B00099332 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44FDB0A21A898430083E416 /* ViewController.swift in Sources */,
-				D4E663CA21A8AEBB001F5E01 /* Dados.swift in Sources */,
-				D44FDB0821A898430083E416 /* AppDelegate.swift in Sources */,
+				D4293CDF219DD73B00099332 /* ViewController.swift in Sources */,
+				D429A2D621A8613300EE1A6F /* Dados.swift in Sources */,
+				D4293CEF219DDB1200099332 /* Player.swift in Sources */,
+				D42F4D3221A04EF100E01AA4 /* AdicionarJogadorViewController.swift in Sources */,
+				D4293CF1219DF25F00099332 /* JogadorTableViewCell.swift in Sources */,
+				D4293CDD219DD73B00099332 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D44FDB0B21A898430083E416 /* Main.storyboard */ = {
+		D4293CE0219DD73B00099332 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D44FDB0C21A898430083E416 /* Base */,
+				D4293CE1219DD73B00099332 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D44FDB1021A898440083E416 /* LaunchScreen.storyboard */ = {
+		D4293CE5219DD73E00099332 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D44FDB1121A898440083E416 /* Base */,
+				D4293CE6219DD73E00099332 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +177,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D44FDB1421A898440083E416 /* Debug */ = {
+		D4293CE9219DD73E00099332 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		D44FDB1521A898440083E416 /* Release */ = {
+		D4293CEA219DD73E00099332 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,36 +293,36 @@
 			};
 			name = Release;
 		};
-		D44FDB1721A898440083E416 /* Debug */ = {
+		D4293CEC219DD73E00099332 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A975LQD622;
-				INFOPLIST_FILE = LanternaRGB/Info.plist;
+				INFOPLIST_FILE = ProjetoTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VTR.LanternaRGB;
+				PRODUCT_BUNDLE_IDENTIFIER = VTR.ProjetoTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D44FDB1821A898440083E416 /* Release */ = {
+		D4293CED219DD73E00099332 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A975LQD622;
-				INFOPLIST_FILE = LanternaRGB/Info.plist;
+				INFOPLIST_FILE = ProjetoTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = VTR.LanternaRGB;
+				PRODUCT_BUNDLE_IDENTIFIER = VTR.ProjetoTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D44FDAFF21A898430083E416 /* Build configuration list for PBXProject "LanternaRGB" */ = {
+		D4293CD4219DD73B00099332 /* Build configuration list for PBXProject "ProjetoTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D44FDB1421A898440083E416 /* Debug */,
-				D44FDB1521A898440083E416 /* Release */,
+				D4293CE9219DD73E00099332 /* Debug */,
+				D4293CEA219DD73E00099332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D44FDB1621A898440083E416 /* Build configuration list for PBXNativeTarget "LanternaRGB" */ = {
+		D4293CEB219DD73E00099332 /* Build configuration list for PBXNativeTarget "ProjetoTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D44FDB1721A898440083E416 /* Debug */,
-				D44FDB1821A898440083E416 /* Release */,
+				D4293CEC219DD73E00099332 /* Debug */,
+				D4293CED219DD73E00099332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D44FDAFC21A898430083E416 /* Project object */;
+	rootObject = D4293CD1219DD73B00099332 /* Project object */;
 }

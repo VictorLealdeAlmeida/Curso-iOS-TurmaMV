@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
+    <device id="ipad10_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,46 +15,61 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LanternaRGB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1112"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQq-zD-Vv5">
-                                <rect key="frame" x="0.0" y="343" width="323" height="225"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UQq-zD-Vv5">
+                                <rect key="frame" x="0.0" y="745" width="834" height="367"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="C12-Kq-8LC">
-                                        <rect key="frame" x="6" y="21" width="275" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="C12-Kq-8LC">
+                                        <rect key="frame" x="149" y="31" width="536" height="31"/>
                                         <connections>
                                             <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="V8l-Uf-SlV"/>
                                         </connections>
                                     </slider>
-                                    <slider opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GUj-AM-VXR">
-                                        <rect key="frame" x="6" y="74" width="275" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <slider opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GUj-AM-VXR">
+                                        <rect key="frame" x="149" y="122.5" width="536" height="31"/>
                                         <connections>
                                             <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="VQc-y8-Ktw"/>
                                         </connections>
                                     </slider>
-                                    <slider opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="boG-7x-THh">
-                                        <rect key="frame" x="6" y="130" width="275" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <slider opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="boG-7x-THh">
+                                        <rect key="frame" x="149" y="214.5" width="536" height="31"/>
                                         <connections>
                                             <action selector="mudarSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="k0n-j7-fQB"/>
                                         </connections>
                                     </slider>
-                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L03-rG-mU9">
-                                        <rect key="frame" x="120" y="176" width="49" height="31"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L03-rG-mU9">
+                                        <rect key="frame" x="371" y="296.5" width="94" height="31"/>
                                         <connections>
                                             <action selector="mudarSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="tSE-sQ-0QX"/>
                                         </connections>
                                     </switch>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="boG-7x-THh" firstAttribute="width" secondItem="UQq-zD-Vv5" secondAttribute="height" multiplier="271:187" id="05d-Hf-Vj9"/>
+                                    <constraint firstItem="C12-Kq-8LC" firstAttribute="centerX" secondItem="UQq-zD-Vv5" secondAttribute="centerX" id="596-Fm-VQn"/>
+                                    <constraint firstItem="L03-rG-mU9" firstAttribute="centerX" secondItem="UQq-zD-Vv5" secondAttribute="centerX" id="6E6-b0-fxn"/>
+                                    <constraint firstItem="GUj-AM-VXR" firstAttribute="centerX" secondItem="UQq-zD-Vv5" secondAttribute="centerX" id="7WJ-74-bHR"/>
+                                    <constraint firstItem="boG-7x-THh" firstAttribute="centerY" secondItem="UQq-zD-Vv5" secondAttribute="centerY" multiplier="1.25" id="E9t-Yf-Tky"/>
+                                    <constraint firstItem="GUj-AM-VXR" firstAttribute="centerY" secondItem="UQq-zD-Vv5" secondAttribute="centerY" multiplier="0.75" id="Haf-tu-T0g"/>
+                                    <constraint firstItem="GUj-AM-VXR" firstAttribute="width" secondItem="UQq-zD-Vv5" secondAttribute="height" multiplier="271:187" id="Qa6-kx-DMO"/>
+                                    <constraint firstItem="boG-7x-THh" firstAttribute="centerX" secondItem="UQq-zD-Vv5" secondAttribute="centerX" id="TE8-UO-0sa"/>
+                                    <constraint firstItem="L03-rG-mU9" firstAttribute="width" secondItem="UQq-zD-Vv5" secondAttribute="height" multiplier="47:187" id="aPU-Xx-3wD"/>
+                                    <constraint firstItem="C12-Kq-8LC" firstAttribute="centerY" secondItem="UQq-zD-Vv5" secondAttribute="centerY" multiplier="0.25" id="baL-Hm-pn5"/>
+                                    <constraint firstItem="C12-Kq-8LC" firstAttribute="width" secondItem="UQq-zD-Vv5" secondAttribute="height" multiplier="271:187" id="qyp-Ks-L6c"/>
+                                    <constraint firstItem="L03-rG-mU9" firstAttribute="centerY" secondItem="UQq-zD-Vv5" secondAttribute="centerY" multiplier="1.7" id="zuY-zQ-jWj"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UQq-zD-Vv5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="CdQ-0d-TTQ"/>
+                            <constraint firstItem="UQq-zD-Vv5" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.33" id="YuR-iW-Ldm"/>
+                            <constraint firstItem="UQq-zD-Vv5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mwC-VE-y5m"/>
+                            <constraint firstItem="UQq-zD-Vv5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="toS-fE-A3C"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
