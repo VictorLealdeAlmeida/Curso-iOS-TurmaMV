@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="ContadorWatchOS_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Conectado com iPhone tal" numberOfLines="2" id="lgi-n7-Gab"/>
+                        <imageView alignment="left" image="copo" id="k7t-yb-Cyg"/>
+                        <label alignment="center" text="Foram quantas?" id="1Ul-dz-qpN"/>
+                        <label alignment="center" text="0" id="WOO-1l-b0n"/>
+                        <button width="1" alignment="left" title="+1" id="up4-hf-qSY">
+                            <connections>
+                                <action selector="somarUm" destination="AgC-eL-Hgc" id="974-GS-Fm4"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Zerar" id="FfL-CM-JjA">
+                            <connections>
+                                <action selector="zerar" destination="AgC-eL-Hgc" id="bFz-G8-r3p"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="contagem" destination="WOO-1l-b0n" id="sYA-Df-0nl"/>
+                        <outlet property="labelConexao" destination="lgi-n7-Gab" id="Wpv-Ic-sTe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="93" y="116"/>
+        </scene>
+    </scenes>
+</document>
